@@ -8,7 +8,7 @@ export default defineUserConfig({
   // 语言
   lang: "zh-CN",
   // 标题
-  title: "Golang开发指南",
+  title: "Golang全栈开发指南",
   // 描述
   description: "Golang Notes learning platform",
 
