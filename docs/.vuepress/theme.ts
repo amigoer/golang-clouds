@@ -13,7 +13,7 @@ export default hopeTheme({
     url: "https://www.codermast.com",
   },
 
-  iconAssets: "fontawesome-with-brands",
+  iconAssets: "iconify",
 
   // 导航栏图标
   logo: "/logo.svg",
@@ -30,6 +30,8 @@ export default hopeTheme({
 
   // 导航栏
   navbar,
+
+  fullscreen: true,
 
   // 侧边栏
   sidebar,
