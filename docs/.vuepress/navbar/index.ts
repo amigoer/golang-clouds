@@ -7,11 +7,11 @@ export default navbar([
     icon: "grommet-icons:golang",
     children: [
       {
-        text: "基础核心",
+        text: "语法核心",
         prefix: "core/",
         children: [
           {
-            text: "核心基础",
+            text: "基础知识",
             link: "basic/",
             icon: "ri:coreos-fill",
           },

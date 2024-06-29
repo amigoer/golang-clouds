@@ -1,4 +1,5 @@
 import { hopeTheme } from "vuepress-theme-hope";
+import { copyCodePlugin } from '@vuepress/plugin-copy-code'
 
 import navbar from "./navbar/index.js";
 import sidebar from "./sidebar/index.js";
@@ -50,13 +51,24 @@ export default hopeTheme({
 
   // 在这里配置主题提供的插件
   plugins: {
-    // 注意: 仅用于测试! 你必须自行生成并在生产环境中使用自己的评论服务
+
+    // 开启代码复制
+    copyCode: true,
+
+    searchPro: {
+      hotKeys: [
+        { key: "k", ctrl: true },
+        { key: "k", meta: true },
+      ],
+    },
+
+    // 配置评论框
     comment: {
       provider: "Giscus",
-      repo: "vuepress-theme-hope/giscus-discussions",
-      repoId: "R_kgDOG_Pt2A",
+      repo: "codermast/golangnotes",
+      repoId: "R_kgDOMON1Gw",
       category: "Announcements",
-      categoryId: "DIC_kwDOG_Pt2M4COD69",
+      categoryId: "DIC_kwDOMON1G84Cgdt4",
     },
 
     components: {
@@ -96,5 +108,7 @@ export default hopeTheme({
       tasklist: true,
       vPre: true,
     },
+
+
   },
 });
