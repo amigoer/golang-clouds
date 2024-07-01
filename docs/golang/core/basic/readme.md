@@ -1,7 +1,7 @@
 ---
 index : false
 link : true
-icon : ri:coreos-fill
+icon : ic:baseline-bolt
 ---
 
 # 基础知识

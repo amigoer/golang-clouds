@@ -9,11 +9,12 @@ export default navbar([
       {
         text: "语法核心",
         prefix: "core/",
+        icon: "ri:coreos-fill",
         children: [
           {
             text: "基础知识",
             link: "basic/",
-            icon: "ri:coreos-fill",
+            icon: "ic:baseline-bolt",
           },
 
           {

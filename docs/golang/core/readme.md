@@ -1,6 +1,6 @@
 ---
 index : false 
 link : true
-icon : ic:baseline-bolt
+icon : ri:coreos-fill
 ---
 # 语法核心
