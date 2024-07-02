@@ -1,5 +1,4 @@
 import { hopeTheme } from "vuepress-theme-hope";
-import { copyCodePlugin } from '@vuepress/plugin-copy-code'
 
 import navbar from "./navbar/index.js";
 import sidebar from "./sidebar/index.js";

@@ -14,7 +14,7 @@ export default navbar([
           {
             text: "基础知识",
             link: "basic/",
-            icon: "ic:baseline-bolt",
+            icon: "solar:crown-star-bold",
           },
 
           {

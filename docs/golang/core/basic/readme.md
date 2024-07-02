@@ -1,8 +1,11 @@
 ---
 index : false
-link : true
-icon : ic:baseline-bolt
+icon : solar:crown-star-bold
+dir :
+    link : true
+    order : 1
 ---
 
 # 基础知识
 
+<Catalog />
