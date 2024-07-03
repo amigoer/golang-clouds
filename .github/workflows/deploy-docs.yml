@@ -46,4 +46,4 @@ jobs:
 
       - name: Synchronization server
         run: |
-          curl -X GET https://www.golangnotes.com/git-pull
+          curl -X POST https://www.golangnotes.com/git-pull
