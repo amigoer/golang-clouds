@@ -238,5 +238,5 @@ highlights:
 
 copyright: false
 footer:  <a href="https://vuepress-theme-hope.github.io/v2/" target="_blank" rel="nofollow">VuePress Theme Hope</a> &#124 Copyright © 2024 CoderMast
- &#124 <a href="https://beian.miit.gov.cn/" target="_blank" rel="nofollow">陕ICP备20010345号-6</a>
+ &#124 <a href="https://beian.miit.gov.cn/" target="_blank" rel="nofollow">陕ICP备20010345号-7</a>
 ---
