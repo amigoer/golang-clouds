@@ -1,4 +1,4 @@
-name: 部署文档
+name: Deploy Golang Notes Docs
 
 on:
   push:
@@ -19,27 +19,31 @@ jobs:
           # 如果你文档需要 Git 子模块，取消注释下一行
           # submodules: true
 
-      - name: 设置 Node.js
+      - name: Set Node.js
         uses: actions/setup-node@v3
         with:
           node-version: 20
           cache: npm
 
-      - name: 安装依赖
+      - name: Install Dependency
         run: |
           corepack enable
           npm ci
 
-      - name: 构建文档
+      - name: Build Docs
         env:
           NODE_OPTIONS: --max_old_space_size=8192
         run: |-
           npm run docs:build
           > docs/.vuepress/dist/.nojekyll
 
-      - name: 部署文档
+      - name: Deployment Document
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           # 部署文档
           branch: gh-pages
           folder: docs/.vuepress/dist
+
+      - name: Synchronization server
+        run: |
+          curl -X GET https://www.golangnotes.com/git-pull
