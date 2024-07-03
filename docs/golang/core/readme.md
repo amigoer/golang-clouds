@@ -1,7 +1,9 @@
 ---
 index : false 
-link : true
 icon : ri:coreos-fill
+dir :
+    link : true
+    order : 1
 ---
 # 语法核心
 
