@@ -1,5 +1,6 @@
 ---
 order : 5
+headerDepth : 1
 ---
 
 # 5. 逻辑控制语句
@@ -249,6 +250,66 @@ func main() {
 - `for` 循环没有括号 `{}` 之外的条件表达式，循环体必须用大括号 `{}` 括起来，即使只有一行代码。
 :::
 
+### range 关键字
+
+在Go语言中，`range`关键字用于迭代数组（array）、切片（slice）、字符串（string）、映射（map）以及通道（channel）等数据结构的元素。它的语法形式有所不同，取决于所迭代的数据结构。应该放
+
+**迭代数组和切片**
+
+对于数组和切片，`range`返回两个值：索引和元素值。例如：
+
+```go
+nums := []int{2, 3, 4}
+
+for index, value := range nums {
+    fmt.Printf("Index: %d, Value: %d\n", index, value)
+}
+```
+
+**迭代字符串**
+
+对于字符串，`range`返回两个值：索引和Unicode码点（对应的rune值）。例如：
+
+```go
+str := "Hello"
+
+for index, char := range str {
+    fmt.Printf("Index: %d, Character: %c\n", index, char)
+}
+```
+
+**迭代映射（map）**
+
+对于映射，`range`返回两个值：键和值。注意，映射的迭代顺序是随机的。例如：
+
+```go
+mymap := map[string]int{"a": 1, "b": 2, "c": 3}
+
+for key, value := range mymap {
+    fmt.Printf("Key: %s, Value: %d\n", key, value)
+}
+```
+
+**迭代通道（channel）**
+
+对于通道，`range`会迭代通道接收的数据，直到通道关闭。例如：
+
+```go
+ch := make(chan int)
+
+go func() {
+    ch <- 1
+    ch <- 2
+    ch <- 3
+    close(ch)
+}()
+
+for num := range ch {
+    fmt.Println(num)
+}
+```
+
+在所有这些情况下，`range`提供了一种方便的方法来迭代数据结构的元素，它简化了对数据的遍历操作。
 
 ## Select 语句
 
@@ -327,3 +388,4 @@ func main() {
 
 ::: important 上述的所有逻辑控制语句均可嵌套使用，从而达到流程控制的作用。这几个语句最为重要，也必须熟练掌握。
 :::
+
