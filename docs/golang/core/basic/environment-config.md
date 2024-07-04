@@ -12,13 +12,13 @@ order : 2
 
 1. 下载地址：https://golang.google.cn/dl/
 
-![](../../../../assets/environment-config/2024-06-29-14-52-12.png)
+![](./assets/environment-config/2024-06-29-14-52-12.png)
 
 2. 选择适合自己的版本进行下载即可
 
 https://golang.google.cn/doc/install
 
-![](../../../../assets/environment-config/2024-06-29-14-49-50.png)
+![](./assets/environment-config/2024-06-29-14-49-50.png)
 
 3. 配置变量
 
@@ -27,30 +27,30 @@ https://golang.google.cn/doc/install
 
 1. 下载并打开安装文件
 
-![](../../../../assets/environment-config/2024-07-01-09-22-03.png)
+![](./assets/environment-config/2024-07-01-09-22-03.png)
 
-![](../../../../assets/environment-config/2024-07-01-09-23-07.png)
+![](./assets/environment-config/2024-07-01-09-23-07.png)
 
 2. 保存好安装路径，点击下一步进行安装即可
 
-![](../../../../assets/environment-config/2024-07-01-09-23-58.png)
+![](./assets/environment-config/2024-07-01-09-23-58.png)
 
 3. 配置系统环境变量
 
 直接搜索环境变量即可，打开编辑系统环境变量。
 
-![](../../../../assets/environment-config/2024-07-01-09-25-48.png)
+![](./assets/environment-config/2024-07-01-09-25-48.png)
 
-![](../../../../assets/environment-config/2024-07-01-09-25-23.png)
+![](./assets/environment-config/2024-07-01-09-25-23.png)
 
 
 选中系统变量中的 Path，点击编辑
 
-![](../../../../assets/environment-config/2024-07-01-09-26-59.png)
+![](./assets/environment-config/2024-07-01-09-26-59.png)
 
 这里安装包自动为我们配置好了环境变量，如果没有自动配置，手动点击右边的新建，输入我们第二步保存的 Go 安装路径即可。
 
-![](../../../../assets/environment-config/2024-07-01-09-27-43.png)
+![](./assets/environment-config/2024-07-01-09-27-43.png)
 
 3. 检查是否成功
 
@@ -58,7 +58,7 @@ https://golang.google.cn/doc/install
 go version
 ```
 
-![](../../../../assets/environment-config/2024-07-01-09-29-33.png)
+![](./assets/environment-config/2024-07-01-09-29-33.png)
 
 
 @tab Mac
@@ -69,11 +69,11 @@ go version
 
 1. 根据对应的芯片架构，选择对应的版本。
 
-![](../../../../assets/environment-config/2024-07-01-09-12-53.png)
+![](./assets/environment-config/2024-07-01-09-12-53.png)
 
 2. 打开下载的 pkg 安装包
 
-![](../../../../assets/environment-config/2024-07-01-09-13-46.png)
+![](./assets/environment-config/2024-07-01-09-13-46.png)
 
 根据提示引导安装即可。
 
@@ -95,7 +95,7 @@ export PATH=$PATH:$GOBIN    # 环境变量
 go version
 ```
 
-![](../../../../assets/environment-config/2024-06-29-15-06-25.png)
+![](./assets/environment-config/2024-06-29-15-06-25.png)
 
 
 
@@ -111,7 +111,7 @@ go version
 sudo apt install golang
 ```
 
-![](../../../../assets/environment-config/2024-07-01-09-37-02.png)
+![](./assets/environment-config/2024-07-01-09-37-02.png)
 
 
 
@@ -119,7 +119,7 @@ sudo apt install golang
 2. 检查是否安装成功
 
 
-![](../../../../assets/environment-config/2024-07-01-09-37-48.png)
+![](./assets/environment-config/2024-07-01-09-37-48.png)
 
 ::: tip 默认会自动配置环境变量，如果这里不成功，则手动配置，参考第三步即可。
 :::
@@ -153,13 +153,13 @@ export PATH=$PATH:$GOBIN    # 环境变量
 
 1. 下载安装：https://code.visualstudio.com/
 
-![](../../../../assets/environment-config/2024-06-29-14-34-01.png)
+![](./assets/environment-config/2024-06-29-14-34-01.png)
 
 2. 下载好后安装即可。
 
 3. 配置 Golang 插件
 
-![](../../../../assets/environment-config/2024-06-29-14-35-54.png)
+![](./assets/environment-config/2024-06-29-14-35-54.png)
 
 ::: important 使用 VSCode 可以直接使用我们配置好的环境变量。
 :::
@@ -168,13 +168,13 @@ export PATH=$PATH:$GOBIN    # 环境变量
 
 1. 下载安装：https://www.jetbrains.com/go/
 
-![](../../../../assets/environment-config/2024-06-29-14-37-30.png)
+![](./assets/environment-config/2024-06-29-14-37-30.png)
 
 2. 下载后安装即可。
 
 3. 配置 Golang
 
-![](../../../../assets/environment-config/2024-06-29-14-39-06.png)
+![](./assets/environment-config/2024-06-29-14-39-06.png)
 
 配置 GOROOT、GOPATH、GOModuls 为你自己下载安装的对应目录即可。
 

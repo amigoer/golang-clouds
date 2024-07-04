@@ -4,7 +4,7 @@ order : 1
 
 # 1. Golang 介绍
 
-![](../../../../assets/background-introdece/2024-06-29-01-24-24.png)
+![](./assets/background-introdece/2024-06-29-01-24-24.png)
 
 ## 背景
 
