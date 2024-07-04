@@ -232,9 +232,9 @@ highlights:
     bgImage: https://www.golangnotes.com/assets/bg/4-light.svg
     bgImageDark: https://www.golangnotes.com/assets/bg/4-dark.svg
     highlights:
-      - title: 本项目开源至 Github： <code>https://github.com/codermast/GolangNotes.git</code> 
+      - title: 本项目开源至：<img src="/assets/image/github-repo.svg" />
         link : https://github.com/codermast/GolangNotes.git
-      - title: 如果你在阅读学习的过程中发现了任何问题，欢迎在本项目仓库提交PR，感谢您！ 
+      - title: 如果你有兴趣参与本站的开发维护，欢迎在本项目仓库提交PR，感谢您！ 
 
 copyright: false
 footer:  <a href="https://vuepress-theme-hope.github.io/v2/" target="_blank" rel="nofollow">VuePress Theme Hope</a> &#124 Copyright © 2024 CoderMast
