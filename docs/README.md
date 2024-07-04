@@ -5,7 +5,7 @@ title: 首页
 breadcrumbExclude: true
 heroImage: /logo.png
 heroText: Golang 全栈开发指南
-tagline: 「Golang 全栈开发指南」包含完整的 Golang 学习指南、计算机基础、数据库、项目实战、面试经验等知识教程，涵盖了 Golang 开发中几乎所有所需要掌握的核心知识！
+tagline: 「Golang 全栈开发指南」提供了全面的 Golang 学习指南，涵盖了计算机基础、数据库应用、实战项目和面试经验，是学习和掌握 Golang 开发所需的核心知识的最佳资源。！
 lang : zh-CN
 
 bgImage: https://www.golangnotes.com/assets/bg/6-light.svg
