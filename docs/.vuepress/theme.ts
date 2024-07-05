@@ -37,7 +37,7 @@ export default hopeTheme({
   sidebar,
 
   // 页脚
-  footer: "<a href='https://www.golangnotes.com/'>Golang开发指南</a>",
+  footer: "<a href='https://www.golangnotes.com/'>Golang全栈开发指南</a>",
   displayFooter: true,
 
   // 多语言配置
