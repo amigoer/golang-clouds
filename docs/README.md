@@ -121,6 +121,11 @@ highlights:
         icon: icon-park:smart-optimization
         details: 让你的网站更像一个 APP
         link: /golang/core/performance-optimization/
+
+      - title: AI 智能体
+        icon: hugeicons:artificial-intelligence-04
+        details: Agent 核心概念、RAG 检索增强、Go Agent 框架实战
+        link: /golang/ai/
         
   - header: 后端技术
     description: 后端必学的一些主流技术

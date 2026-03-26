@@ -1,9 +1,9 @@
-name: Deploy Golang Notes Docs
+name: Deploy Golang Clouds Docs
 
 on:
   push:
-    branches:
-      - main
+    tags:
+      - 'v*'
 
 permissions:
   contents: write
@@ -13,16 +13,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          # 如果你文档需要 Git 子模块，取消注释下一行
-          # submodules: true
 
       - name: Set Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
           cache: npm
 
       - name: Install Dependency
@@ -40,10 +38,5 @@ jobs:
       - name: Deployment Document
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          # 部署文档
           branch: gh-pages
           folder: docs/.vuepress/dist
-
-      - name: Synchronization server
-        run: |
-          curl -X POST https://www.golangnotes.com/git-pull
