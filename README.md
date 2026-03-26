@@ -24,6 +24,7 @@
 | 模块 | 说明 |
 |------|------|
 | **Go 核心基础** | 语法基础、并发编程、网络编程 |
+| **AI Agent 开发** | 从入门到精通的 Agent 教程（10 篇） |
 | **Web 开发** | Gin 框架等主流 Web 框架实战 |
 | **云原生** | Docker、Kubernetes 容器化与编排 |
 | **通用技能** | Git 版本控制等开发者必备工具 |
@@ -37,6 +38,7 @@ docs/
 │   ├── core/                # 核心基础（基础语法、并发、网络）
 │   ├── web/                 # Web 开发（Gin 等）
 │   └── community/           # 开源生态（标准库、开源库、开源项目）
+├── ai/                      # AI Agent 开发教程（10 篇）
 └── backend-tech/            # 后端技术
     ├── cloud-native/        # 云原生（Docker、Kubernetes）
     └── general/             # 通用技能（Git 等）

@@ -8,9 +8,9 @@ export default defineUserConfig({
   // 语言
   lang: "zh-CN",
   // 标题
-  title: "Golang全栈开发指南",
+  title: "Golang Clouds",
   // 描述
-  description: "Golang Notes learning platform",
+  description: "Golang 全栈开发指南 — 涵盖 Go 语言核心、AI Agent 开发、云原生与开源生态",
 
   theme,
 

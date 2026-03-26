@@ -40,11 +40,6 @@ export default navbar([
         ]
       },
       {
-        text: "AI 智能体",
-        link: "ai/",
-        icon: "hugeicons:artificial-intelligence-04",
-      },
-      {
         text: "社区生态",
         prefix: "community/",
         children: [
@@ -65,6 +60,63 @@ export default navbar([
           },
         ]
       }
+    ]
+  },
+  {
+    text: "AI 智能体",
+    prefix: "ai/",
+    icon: "hugeicons:artificial-intelligence-04",
+    children: [
+      {
+        text: "核心概念",
+        link: "agent-concepts",
+        icon: "mdi:lightbulb-outline",
+      },
+      {
+        text: "环境搭建",
+        link: "setup-environment",
+        icon: "vscode-icons:file-type-config",
+      },
+      {
+        text: "Prompt 工程",
+        link: "prompt-engineering",
+        icon: "fluent:prompt-24-filled",
+      },
+      {
+        text: "Tool Calling",
+        link: "tool-calling",
+        icon: "mdi:tools",
+      },
+      {
+        text: "Memory 管理",
+        link: "memory-management",
+        icon: "mdi:memory",
+      },
+      {
+        text: "RAG",
+        link: "rag",
+        icon: "mdi:database-search",
+      },
+      {
+        text: "工作流编排",
+        link: "agent-workflow",
+        icon: "material-symbols:flowsheet",
+      },
+      {
+        text: "多 Agent",
+        link: "multi-agent",
+        icon: "fluent:people-team-24-filled",
+      },
+      {
+        text: "框架对比",
+        link: "go-agent-frameworks",
+        icon: "mdi:compare",
+      },
+      {
+        text: "生产部署",
+        link: "production-deployment",
+        icon: "material-symbols:deployed-code",
+      },
     ]
   },
   {

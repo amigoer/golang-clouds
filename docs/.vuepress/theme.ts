@@ -5,12 +5,12 @@ import sidebar from "./sidebar/index.js";
 
 export default hopeTheme({
   // 网站部署域名
-  hostname: "https://www.golangnotes.com",
+  hostname: "https://golang-clouds.vercel.app",
 
   // 作者信息
   author: {
-    name: "友人",
-    url: "https://www.codermast.com",
+    name: "Amigoer",
+    url: "https://github.com/amigoer",
   },
 
   iconAssets: "iconify",
@@ -19,11 +19,10 @@ export default hopeTheme({
   logo: "/logo.svg",
 
   // 仓库
-  repo: "codermast/GolangNotes",
-
+  repo: "amigoer/golang-clouds",
 
   // 文档所在仓库
-  docsRepo: "codermast/GolangNotes",
+  docsRepo: "amigoer/golang-clouds",
 
   // 文档所在目录
   docsDir: "docs",
@@ -37,16 +36,13 @@ export default hopeTheme({
   sidebar,
 
   // 页脚
-  footer: "<a href='https://www.golangnotes.com/'>Golang全栈开发指南</a>",
+  footer: "<a href='https://github.com/amigoer/golang-clouds'>Golang Clouds</a>",
   displayFooter: true,
 
   // 多语言配置
   metaLocales: {
     editLink: "在 GitHub 上编辑此页",
   },
-
-  // 如果想要实时查看任何改变，启用它。注: 这对更新性能有很大负面影响
-  // hotReload: true,
 
   // 在这里配置主题提供的插件
   plugins: {
@@ -59,15 +55,6 @@ export default hopeTheme({
         { key: "k", ctrl: true },
         { key: "k", meta: true },
       ],
-    },
-
-    // 配置评论框
-    comment: {
-      provider: "Giscus",
-      repo: "codermast/golangnotes",
-      repoId: "R_kgDOMON1Gw",
-      category: "Announcements",
-      categoryId: "DIC_kwDOMON1G84Cgdt4",
     },
 
     components: {
