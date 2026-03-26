@@ -233,10 +233,9 @@ highlights:
     bgImageDark: https://www.golangnotes.com/assets/bg/4-dark.svg
     highlights:
       - title: 本项目开源至：<img src="/assets/image/github-repo.svg" />
-        link : https://github.com/codermast/GolangNotes.git
+        link : https://github.com/amigoer/golang-clouds
       - title: 如果你有兴趣参与本站的开发维护，欢迎在本项目仓库提交PR，感谢您！ 
 
 copyright: false
-footer:  <a href="https://vuepress-theme-hope.github.io/v2/" target="_blank" rel="nofollow">VuePress Theme Hope</a> &#124 Copyright © 2024 CoderMast
- &#124 <a href="https://beian.miit.gov.cn/" target="_blank" rel="nofollow">陕ICP备20010345号-7</a>
+footer:  <a href="https://vuepress-theme-hope.github.io/v2/" target="_blank" rel="nofollow">VuePress Theme Hope</a> &#124 Copyright © 2026 Amigoer
 ---
