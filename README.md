@@ -1,11 +1,17 @@
 <div align="center">
 
+<img src="docs/.vuepress/public/logo.png" alt="Golang Clouds" width="120">
+
 # Golang Clouds ☁️
 
 **Golang 全栈开发指南** — 涵盖 Go 语言核心、Web 开发、云原生、开源生态等全方位知识体系
 
-[![GitHub stars](https://img.shields.io/github/stars/amigoer/golang-clouds?style=flat-square)](https://github.com/amigoer/golang-clouds/stargazers)
+[![GitHub stars](https://img.shields.io/github/stars/amigoer/golang-clouds?style=flat-square&logo=github)](https://github.com/amigoer/golang-clouds/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/amigoer/golang-clouds?style=flat-square&logo=github)](https://github.com/amigoer/golang-clouds/network/members)
 [![GitHub license](https://img.shields.io/github/license/amigoer/golang-clouds?style=flat-square)](https://github.com/amigoer/golang-clouds/blob/main/LICENSE)
+[![Go Version](https://img.shields.io/badge/Go-1.22+-00ADD8?style=flat-square&logo=go&logoColor=white)](https://go.dev)
+[![VuePress](https://img.shields.io/badge/VuePress-2.x-42b883?style=flat-square&logo=vuedotjs&logoColor=white)](https://vuepress.vuejs.org)
+[![Deploy](https://img.shields.io/github/actions/workflow/status/amigoer/golang-clouds/deploy-docs.yml?style=flat-square&label=deploy&logo=github-actions&logoColor=white)](https://github.com/amigoer/golang-clouds/actions)
 
 </div>
 
